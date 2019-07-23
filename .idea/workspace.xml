@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="357259b5-8594-41a3-90f7-6206aef2af8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/DistributedReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/domain/DLockConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/domain/DLockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/domain/DLockStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/domain/DLockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/exception/DLockProcessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/exception/OptimisticLockingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/exception/RedisProcessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/jedis/JedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/processor/DLockProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/processor/impl/RedisLockProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/support/DLockGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/utils/EnumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/utils/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/src/main/java/com/whb/dlock/utils/ValuedEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/DistributedReentrantLock$ExpandLockLeaseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/DistributedReentrantLock$LockThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/DistributedReentrantLock$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/DistributedReentrantLock$RetryLockThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/DistributedReentrantLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/domain/DLockConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/domain/DLockEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/domain/DLockStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/domain/DLockType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/exception/DLockProcessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/exception/OptimisticLockingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/exception/RedisProcessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/jedis/JedisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/processor/DLockProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/processor/impl/RedisLockProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/support/DLockGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/utils/EnumUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/utils/NetUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/utils/ReflectionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dlock/target/classes/com/whb/dlock/utils/ValuedEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/springes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/src/main/java/whb/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/target/classes/whb/Application$SecuritySecureConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/target/classes/whb/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/java/com/qianshan/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/java/com/qianshan/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/java/com/qianshan/modal/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/java/com/qianshan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/java/com/qianshan/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/com/qianshan/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/com/qianshan/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/com/qianshan/modal/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/com/qianshan/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-jetcache/target/classes/com/qianshan/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/config/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/config/RedisCacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/controller/HelleoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/quartz/Quartz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/whb/service/LockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/dlock/config-dlock.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/dlock/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/test/java/com/whb/HelloTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/META-INF/springboot-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/MyConfiguration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/MyConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/RedisCacheConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/controller/HelleoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/quartz/Quartz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/service/LockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/util/Test7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/dlock/config-dlock.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/dlock/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/test-classes/com/whb/HelloTests.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/springboot-actuator/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-jetcache/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-web/target/" />
+    <ignored path="$PROJECT_DIR$/dlock/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-es/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/evn/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\evn\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.whb.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="357259b5-8594-41a3-90f7-6206aef2af8e" name="Default Changelist" comment="" />
+      <created>1563860286231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563860286231</updated>
+      <workItem from="1563860287715" duration="467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="467000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
