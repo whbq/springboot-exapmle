@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dlock/dlock.iml" filepath="$PROJECT_DIR$/dlock/dlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oracledao/oracledao.iml" filepath="$PROJECT_DIR$/oracledao/oracledao.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-es/spring-es.iml" filepath="$PROJECT_DIR$/spring-es/spring-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example.iml" filepath="$PROJECT_DIR$/springboot-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jetcache/springboot-jetcache.iml" filepath="$PROJECT_DIR$/springboot-jetcache/springboot-jetcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uid-generator/uidgenerator.iml" filepath="$PROJECT_DIR$/uid-generator/uidgenerator.iml" />
     </modules>
   </component>
 </project>

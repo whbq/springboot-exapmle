@@ -15,7 +15,17 @@
         <module>springboot-jetcache</module>
         <module>dlock</module>
         <module>spring-es</module>
+        <module>oracledao</module>
+        <module>uid-generator</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.57</version>
+        </dependency>
+    </dependencies>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

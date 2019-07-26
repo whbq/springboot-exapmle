@@ -99,5 +99,7 @@
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: de.codecentric:spring-boot-admin-server-ui:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.57" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:core:3.1.0" level="project" />
   </component>
 </module>

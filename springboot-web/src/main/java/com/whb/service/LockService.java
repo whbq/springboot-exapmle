@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.Random;
+import java.util.UUID;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
@@ -23,77 +26,27 @@ public class LockService {
     @Resource
     private DLockGenerator lockGenerator;
 
-  //  @Scheduled(cron="*/6 * * * * ?")
-    void  tryLock(){
-
-        Lock lock = lockGenerator.gen("FAKE_LOCK", "A_TARGET", 1, TimeUnit.SECONDS);lock.lock();
-        if (lock.tryLock()){
-             lock.unlock();
-            boolean b = lock.tryLock();
-            LOGGER.error("tryLock:{}"+b);
-            lock.unlock();
-        }else {
-            lock.lock();
-        }
-
-    }
-
-
-//   @Scheduled(initialDelay=1000, fixedRate=50)
-    void  lock(){
-//       double random = Math.random();
-      //从1到10的int型随数
-     Integer  random =   (int)(1+Math.random()*(10-1+1)) ;
-
-       Lock lock = lockGenerator.gen("FAKE_LOCK", "A_TARGET"+ random, 1, TimeUnit.SECONDS);
-       LOGGER.info("random:{}"+random);
-
-       boolean b = lock.tryLock();
-       LOGGER.error("tryLock:{}"+b);
-       if (b) {
-           LOGGER.error("tryLock:{}==========>>>>>"+b);
-
-           try {
-                doYourWork();
-            } finally {
-              //  lock.unlock();
-                LOGGER.info("unlock:{}"+random);
-
-            }
+    public void test1() {
+        int random = (int) (Math.random() * 10 + 1);
+        //String random = UUID.randomUUID().toString();
+        Lock lock = lockGenerator.gen("FAKE_LOCK:" + random, ":A_TARGET" + random, 1, TimeUnit.SECONDS);
+        if (lock.tryLock()) {
+            System.out.println("锁成功了" + random);
         } else {
-            System.out.println("lock status");
-            //lock.unlock();
+            System.out.println("锁失败了" + random);
         }
     }
 
-
-//    @Scheduled(initialDelay=3000, fixedRate=500)
-    void  lock2(){
-        Integer  random =   (int)(1+Math.random()*(10-1+1)) ;
-        Lock lock = lockGenerator.gen("FAKE_LOCK", "A_TARGET"+ random, 1, TimeUnit.SECONDS);
-        LOGGER.info("random:{}"+random);
-        boolean b = lock.tryLock();
-        LOGGER.error("tryLock:{}"+b);
-        if (b) {
-            LOGGER.error("tryLock:{}==========>>>>>"+b);
-
-            try {
-                doYourWork();
-            } finally {
-               // lock.unlock();
-                LOGGER.info("unlock:{}"+random);
-
+    public void test() {
+        ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(3);
+        scheduledThreadPool.scheduleAtFixedRate(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName());
+                test1();
             }
-        } else {
-            System.out.println("lock status");
-            //lock.unlock();
-        }
+        }, 1, 30, TimeUnit.MILLISECONDS);
     }
 
 
-
-
-    private void doYourWork() {
-        System.out.println("Just do your work");
-    }
 }

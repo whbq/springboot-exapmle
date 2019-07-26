@@ -128,5 +128,7 @@
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.jodd:jodd-http:5.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.jodd:jodd-core:5.0.12" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.57" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:core:3.1.0" level="project" />
   </component>
 </module>

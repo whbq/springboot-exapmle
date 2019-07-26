@@ -6,6 +6,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +27,8 @@ public class HelleoController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HelleoController.class);
 
+    @Autowired
+    private  LockService lockService;
 
     @Resource
     private DLockGenerator lockGenerator;
@@ -33,15 +36,7 @@ public class HelleoController {
     @GetMapping ("hello")
     public Map hello(String target) {
         Map data = new HashMap(2 << 1);
-
-        Lock lock = lockGenerator.gen("FAKE_LOCK", target, 10, TimeUnit.SECONDS);
-        if (lock.tryLock()){
-            data.put("data",false);
-            lock.unlock();
-        }else {
-            data.put("data",true);
-
-        }
+        lockService.test();
         return  data;
     }
     @ApiOperation(value = "testDlock", notes = "testDlock")
