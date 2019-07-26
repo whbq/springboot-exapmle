@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!--根节点 -->
+<generatorConfiguration>
+    <!-- 指定外部的属性元素 -->
+    <properties resource="application-generator.properties"/>
+
+    <!-- 必须 指定生成一组对象的环境 -->
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <!--分隔符 -->
+        <property name="autoDelimitKeywords" value="true"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!-- 通用mapper插件 -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <!-- 此处的 MyMapper注意一定不能被扫描到-->
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+        </plugin>
+        <!-- 注释 规则-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="false"/>
+            <property name="suppressDate" value="false"/>
+        </commentGenerator>
+
+
+        <jdbcConnection driverClass="${spring.datasource.driver-class-name}"
+                        connectionURL="${spring.datasource.url}"
+                        userId="${spring.datasource.username}"
+                        password="${spring.datasource.password}">
+            <property name="remarksReporting" value="true"></property>
+
+        </jdbcConnection>
+
+
+        <!-- 逆向工程生成的位置 -->
+        <!-- javaModelGenerator:生成的实体类 targetPackage:实体类生成的位置(package) targetProject:指定的项目路径，也就是targetPackage所在的位置 -->
+        <javaModelGenerator targetPackage="com.qianshan.modal"
+                            targetProject="./src/main/java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 schema:str -->
+            <property name="enableSubPackages" value="false" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- sqlMapGenerator:所有的Mapper.xml文件 targetPackage:指定xml所在的文件夹 -->
+
+        <sqlMapGenerator targetPackage="mapper" targetProject="./src/main/resources">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+
+        <!-- javaClientGenerator:所有Mapper接口所在的位置信息 type:XMLMAPPER 其实指向了mapper接口的实现类类型 -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.qianshan.mapper" targetProject="./src/main/java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+
+
+
+
+        <table tableName="B2B2C_YIWUGOU_PRUDETAIL"  domainObjectName ="YiwugouPrudetail">
+            <!--mysql 配置-->
+<!--                        <generatedKey column="id" sqlStatement="Mysql" />-->
+            <!--oracle 配置-->
+            <generatedKey column="TID" sqlStatement="select SEQ_CONFIG_BUS_01.nextval from dual" identity="false" type="pre"/>
+        </table>
+    </context>
+</generatorConfiguration>

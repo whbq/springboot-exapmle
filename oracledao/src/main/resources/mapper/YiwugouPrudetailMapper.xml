@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qianshan.mapper.YiwugouPrudetailMapper" >
+  <resultMap id="BaseResultMap" type="com.qianshan.modal.YiwugouPrudetail" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TID" property="tid" jdbcType="VARCHAR" />
+    <result column="ID" property="id" jdbcType="VARCHAR" />
+    <result column="SELL_TYPE" property="sellType" jdbcType="VARCHAR" />
+    <result column="TITLE" property="title" jdbcType="VARCHAR" />
+    <result column="GOODS_CODE" property="goodsCode" jdbcType="VARCHAR" />
+    <result column="GOODSFLAG" property="goodsflag" jdbcType="VARCHAR" />
+    <result column="PICTURE1" property="picture1" jdbcType="VARCHAR" />
+    <result column="PICTURE2" property="picture2" jdbcType="VARCHAR" />
+    <result column="PICTURE3" property="picture3" jdbcType="VARCHAR" />
+    <result column="METRIC" property="metric" jdbcType="VARCHAR" />
+    <result column="SALE_NUMBER" property="saleNumber" jdbcType="DECIMAL" />
+    <result column="FREIGHT" property="freight" jdbcType="DECIMAL" />
+    <result column="PRICE_TYPE" property="priceType" jdbcType="VARCHAR" />
+    <result column="FREEDELIVERY" property="freedelivery" jdbcType="DECIMAL" />
+    <result column="PRODUCT_MODE" property="productMode" jdbcType="VARCHAR" />
+    <result column="SELL_FLAG" property="sellFlag" jdbcType="VARCHAR" />
+    <result column="FREIGHT_TEMPLATE_ID" property="freightTemplateId" jdbcType="VARCHAR" />
+    <result column="MARKET_CODE" property="marketCode" jdbcType="DECIMAL" />
+    <result column="TAGS" property="tags" jdbcType="VARCHAR" />
+    <result column="SELL_PRICE" property="sellPrice" jdbcType="DECIMAL" />
+    <result column="PICTURE" property="picture" jdbcType="VARCHAR" />
+    <result column="IS_REFUND" property="isRefund" jdbcType="VARCHAR" />
+    <result column="WEIGHTETC" property="weightetc" jdbcType="VARCHAR" />
+    <result column="IS_VIRTUAL" property="isVirtual" jdbcType="VARCHAR" />
+    <result column="INNERTYPE" property="innertype" jdbcType="DECIMAL" />
+    <result column="START_NUMBER" property="startNumber" jdbcType="DECIMAL" />
+    <result column="DELIVERY_PROMISE" property="deliveryPromise" jdbcType="VARCHAR" />
+    <result column="ORDER_STOCKINSTRUCTION" property="orderStockinstruction" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="UNITPRICE" property="unitprice" jdbcType="VARCHAR" />
+    <result column="BBS_ID" property="bbsId" jdbcType="DECIMAL" />
+    <result column="VIDEO" property="video" jdbcType="VARCHAR" />
+    <result column="TOTALPRICE" property="totalprice" jdbcType="VARCHAR" />
+    <result column="SMALLNUM" property="smallnum" jdbcType="DECIMAL" />
+    <result column="PRODUCT_SELLTOTAL" property="productSelltotal" jdbcType="DECIMAL" />
+    <result column="SELLFLAG" property="sellflag" jdbcType="VARCHAR" />
+    <result column="DELETED_FLAG" property="deletedFlag" jdbcType="DECIMAL" />
+    <result column="CREATED_TIME" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATED_TIME" property="updatedTime" jdbcType="TIMESTAMP" />
+    <result column="CREATED_BY" property="createdBy" jdbcType="DECIMAL" />
+    <result column="UPDATED_BY" property="updatedBy" jdbcType="DECIMAL" />
+    <result column="LANGUAGE" property="language" jdbcType="DECIMAL" />
+    <result column="CATEGORY" property="category" jdbcType="VARCHAR" />
+    <result column="SHOP_ID" property="shopId" jdbcType="VARCHAR" />
+    <result column="REAL_UPDATE_TIME" property="realUpdateTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="VARCHAR" />
+    <result column="INTRODUCTION" property="introduction" jdbcType="CLOB" />
+    <result column="DETAILL" property="detaill" jdbcType="CLOB" />
+    <result column="SDI_PRODUCTS_PICLIST" property="sdiProductsPiclist" jdbcType="CLOB" />
+    <result column="SDI_PRODUCTS_PRICELIST" property="sdiProductsPricelist" jdbcType="CLOB" />
+    <result column="PRODUCT_PROPERTY_SKU_BO_LIST" property="productPropertySkuBoList" jdbcType="CLOB" />
+    <result column="PROPERTY_LIST" property="propertyList" jdbcType="CLOB" />
+  </resultMap>
+</mapper>
