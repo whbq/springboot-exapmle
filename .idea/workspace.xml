@@ -2,41 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357259b5-8594-41a3-90f7-6206aef2af8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/META-INF/mybatis/mapper/WORKER_NODE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/BitsAllocator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/UidGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/buffer/BufferPaddingExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/buffer/BufferedUidProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/buffer/RejectedPutBufferHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/buffer/RejectedTakeBufferHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/buffer/RingBuffer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/exception/UidGenerateException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/impl/CachedUidGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/impl/DefaultUidGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/DockerUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/EnumUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/NamingThreadFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/NamingThreadFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/NetUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/PaddedAtomicLong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/utils/ValuedEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/worker/DisposableWorkerIdAssigner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/worker/WorkerIdAssigner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/worker/WorkerNodeType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/worker/dao/WorkerNodeDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/classes/com/baidu/fsg/uid/worker/entity/WorkerNodeEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/com/baidu/fsg/uid/CachedUidGeneratorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/com/baidu/fsg/uid/DefaultUidGeneratorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/uid/cached-uid-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/uid/default-uid-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/uid/mybatis-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uid-generator/target/test-classes/uid/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracledao/target/classes/application-generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracledao/target/classes/com/qianshan/mapper/YiwugouPrudetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracledao/target/classes/com/qianshan/modal/YiwugouPrudetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracledao/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracledao/target/classes/mapper/YiwugouPrudetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/META-INF/spring-es.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/config/MyConfiguration$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/config/MyConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/entity/YiwugouPrudetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/repository/YiwugouPrudetailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/service/EsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/target/classes/com/whb/service/impl/EsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/target/classes/com/whb/Application$SecuritySecureConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-actuator/target/classes/com/whb/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/service/LockService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/RedisCacheConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/config/RedisCacheConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/controller/HelleoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/controller/HelleoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/service/LockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/target/classes/com/whb/service/LockService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/target/classes/dlock/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/target/classes/dlock/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/springboot-actuator/target/" />
@@ -87,7 +73,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-946" />
+            <state relative-caret-position="228">
+              <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-jetcache/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-actuator/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-es/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-es/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -139,7 +162,6 @@
         <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
         <option value="$PROJECT_DIR$/oracledao/pom.xml" />
         <option value="$PROJECT_DIR$/oracledao/src/main/resources/generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties" />
         <option value="$PROJECT_DIR$/spring-es/src/main/java/com/whb/Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-es/src/main/resources/application-dev.properties" />
@@ -158,6 +180,7 @@
         <option value="$PROJECT_DIR$/springboot-web/src/main/resources/dlock/redis.properties" />
         <option value="$PROJECT_DIR$/uid-generator/pom.xml" />
         <option value="$PROJECT_DIR$/uid-generator/src/test/resources/uid/mysql.properties" />
+        <option value="$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties" />
       </list>
     </option>
   </component>
@@ -213,6 +236,76 @@
             <path>
               <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="dlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="oracledao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-actuator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-actuator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-jetcache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-jetcache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-jetcache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-jetcache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-exapmle" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-jetcache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +468,7 @@
       <workItem from="1563960741897" duration="1919000" />
       <workItem from="1564033889355" duration="2963000" />
       <workItem from="1564040650953" duration="7353000" />
-      <workItem from="1564119159621" duration="9201000" />
+      <workItem from="1564119159621" duration="9598000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1563860888122</created>
@@ -391,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564133371302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1564133640964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564133640964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,10 +515,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37750000" />
+    <option name="totallyTimeSpent" value="38147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -439,12 +539,12 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.54957354" side_tool="true" visible="true" weight="0.44420367" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.54957354" side_tool="true" visible="true" weight="0.10184182" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.08884074" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="JProfiler" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.45042643" visible="true" weight="0.44420367" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.45042643" visible="true" weight="0.10184182" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -531,21 +631,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.5.RELEASE/spring-data-elasticsearch-3.0.5.RELEASE-sources.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.5.RELEASE/spring-data-commons-2.0.5.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-es/src/main/java/com/whb/modal/YiwugouPrudetail.java" />
     <entry file="file://$PROJECT_DIR$/spring-es/src/main/java/com/whb/repository/YiwugouPrudetailRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -594,13 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-es/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -667,13 +745,6 @@
             <element signature="e#317#318#0" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -900,9 +971,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-jetcache/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-actuator/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-es/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-es/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oracledao/src/main/resources/application-generator.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946" />
+        <state relative-caret-position="228">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="41" />
+        </state>
       </provider>
     </entry>
   </component>
