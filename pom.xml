@@ -10,13 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <description>springboot_learn</description>
     <modules>
-        <module>springboot-web</module>
         <module>springboot-actuator</module>
-        <module>springboot-jetcache</module>
         <module>dlock</module>
-        <module>spring-es</module>
-        <module>oracledao</module>
         <module>uid-generator</module>
+        <module>web</module>
     </modules>
 
     <dependencies>
