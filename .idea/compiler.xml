@@ -6,33 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="prometheusdemo" />
         <module name="springboot-actuator" />
         <module name="web" />
-        <module name="uidgenerator" />
         <module name="dlock" />
+        <module name="uid-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dlock" target="1.8" />
-      <module name="oracledao" target="1.8" />
-      <module name="spring-es" target="1.8" />
+      <module name="prometheusdemo" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-example" target="1.8" />
-      <module name="springboot-jetcache" target="1.8" />
-      <module name="springboot-web" target="1.8" />
-      <module name="uidgenerator" target="1.8" />
+      <module name="uid-generator" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dlock" options="-parameters" />
-      <module name="oracledao" options="-parameters" />
-      <module name="spring-es" options="-parameters" />
+      <module name="prometheusdemo" options="-parameters" />
       <module name="springboot-actuator" options="-parameters" />
-      <module name="springboot-jetcache" options="-parameters" />
-      <module name="springboot-web" options="-parameters" />
-      <module name="uidgenerator" options="-parameters" />
+      <module name="uid-generator" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
   </component>

@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dlock/dlock.iml" filepath="$PROJECT_DIR$/dlock/dlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prometheus-demo/prometheusdemo.iml" filepath="$PROJECT_DIR$/prometheus-demo/prometheusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example.iml" filepath="$PROJECT_DIR$/springboot-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uid-generator/uidgenerator.iml" filepath="$PROJECT_DIR$/uid-generator/uidgenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uid-generator/uid-generator.iml" filepath="$PROJECT_DIR$/uid-generator/uid-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
